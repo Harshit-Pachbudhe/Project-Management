@@ -26,7 +26,7 @@ public class MemberController {
     }
 
     @PostMapping
-    public Member save(@RequestBody Member member)  {
+    public Member save(@RequestBody Member member) {
         return service.save(member);
     }
 
